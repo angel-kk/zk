@@ -1,0 +1,214 @@
+body , p, h1, h2 , h3 , h4 , h5, h6,ul, ol,li,dl , dt , dd, input {
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	vertical-align: middle;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+li{
+	list-style: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+input{
+	outline: none;
+}
+.clear:after{
+	content:""; 
+	display: block; 
+	clear: both; 
+	height: 0; 
+	overflow: hidden; 	
+    visibility: hidden;
+}
+body{
+    overflow-x: hidden;
+    background: white;
+}
+
+/* 头部 */
+
+.nuv{
+    width: 100%;
+    height: 40px;
+    background-color:black;
+}
+.nuv-list{
+    line-height: 40px;
+    width: 1180px;
+    height: 40px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.nuv-z{
+    float: left;
+    line-height: 40px;
+}
+.nuv-z li{
+    float: left;
+    margin-left: 25px;
+    font-size: 14px;
+    color:white
+    
+    
+    }
+.nuv-y{
+    float: right;
+}
+.nuv-y li{
+float: left;
+margin-left: 25px;
+font-size: 14px;
+color:white
+}
+
+/* 2 */
+
+.nuv2{
+    width: 100%;
+    height: 85px;
+   
+}
+.nuv2-c{
+    line-height: 85px;
+    width: 1180px;
+    height: 85px;
+    margin: 0 auto;
+}
+
+.nuv2-c img{
+    margin-left:30px;
+    }
+.nuv2-c span{
+margin-left: 20px;
+font-size: 26px;
+}
+.nuv-c1{
+    width: 200px;
+    height: 85px;
+    float: left;
+}
+.nuv-c2{
+    
+    float: right;
+}
+.nuv-c2 li{
+    float:left;
+    font-size: 16px;
+    margin-right: 55px;
+} 
+
+
+/* 3 */
+.nuv3-c{
+    height: 800px;
+    width: 1180px;
+    margin: 0 auto;
+/*     border: 1px solid red; */
+}
+.nuv-sc{
+    font-size: 16px;
+}
+.nuv-sg{
+    font-size: 16px;
+    color: #ced0d4;
+  
+}
+.nuv3-z{
+    float: left;
+    /* border: 1px solid blue; */
+}
+.nuv3-y{
+    float: right;
+    /* border: 1px solid blue; */
+}
+.nuv3-p{
+    color: red;
+    margin-top: 25px;
+    font-size: 26px;
+}
+.nuv3-p1{
+    text-align: center;
+    font-size: 22px;
+    color:white;
+    background: red;
+}
+
+.but{
+    width: 185px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+
+}
+.but1{
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+    border:1px solid #ccc;
+
+}
+.xt{
+    width: 600px;
+    height: 100px;
+    border: 1px solid red;
+    clear: both;
+    position: absolute;
+    top: 690px;
+}
+.xt li{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 18px;
+}
+.xt li img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.dddk{
+    width: 570px;
+    height: 500px;
+    border: 1px solid red;
+    position: absolute;
+    left: 610px;
+    top: 15px;
+    display: none;
+    overflow: hidden;
+}
+.dddk img{
+    width: 1200px;
+    height: 1200px;
+    
+}
+.nuv3-tp{
+    position: relative;
+}
+.dddk1{
+    width: 200px;
+    height: 200px;
+    display: none;
+    background: rgb(255, 0, 0,.2);
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+.img1{
+    position: absolute;
+}
+.dimg{
+    width: 100%;
+    height: 100%;
+}

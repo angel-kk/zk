@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    display: block;
+}
+
+html{
+    overflow-x: hidden;
+    background: #f5f5f5;
+}
+
+
+body , p, h1, h2 , h3 , h4 , h5, h6,ul, ol,li,dl , dt , dd, input {
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	vertical-align: middle;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+li{
+	list-style: none;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+input{
+	outline: none;
+}
+.clear:after{
+	content:""; 
+	display: block; 
+	clear: both; 
+	height: 0; 
+	overflow: hidden; 	
+    visibility: hidden;
+}
+
+body{
+    overflow-x: hidden;
+    background: #f5f5f5;
+}
+/* 头部 */
+
+.nuv{
+    width: 100%;
+    height: 40px;
+    background-color:black;
+}
+.nuv-list{
+    line-height: 40px;
+    width: 1180px;
+    height: 40px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.nuv-z{
+    float: left;
+    line-height: 40px;
+}
+.nuv-z li{
+    float: left;
+    margin-left: 25px;
+    font-size: 14px;
+    color:white
+    
+    
+    }
+.nuv-y{
+    float: right;
+}
+.nuv-y li{
+float: left;
+margin-left: 25px;
+font-size: 14px;
+color:white
+}
+
+/* 2 */
+
+.nuv2{
+    width: 100%;
+    height: 85px;
+   
+}
+.nuv2-c{
+    line-height: 85px;
+    width: 1180px;
+    height: 85px;
+    background: white;
+    margin: 0 auto;
+}
+
+.nuv2-c img{
+    margin-left:30px;
+    }
+.nuv2-c span{
+margin-left: 20px;
+font-size: 26px;
+}
+.nuv-c1{
+    height: 85px;
+    float: left;
+}
+.nuv-c2{
+    float: right;
+}
+.nuv-c2 li{
+    float:left;
+    font-size: 16px;
+    margin-right: 50px;
+} 
+
+/* 3 */
+.content{
+    width: 100%;
+    background: #f5f5f5;
+}
+.type-area{
+    width: 1180px;
+    margin: 0 auto;
+}
+.classify-nav{
+    padding: 17px 0;
+}
+.site{
+    height: 15px;
+    line-height: 15px;
+    font-size: 14px;
+    color: #8c8c8c;
+   
+}
+.site a{
+    color: #262626;
+}
+.site i{
+    width: 5px;
+    height: 9px;
+    display:inline-block;
+    background: url(../img/1.png)no-repeat -131px -30px;
+    margin: 0 10px;
+}
+.classify-box {
+    height: 107px;
+    background: #fff;
+    padding: 0 20px;
+    border-radius: 2px;
+}
+.classication {
+    height: 53px;
+    line-height: 53px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.classify-name {
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-right: 10px;
+}
+.classify-item {
+    font-size: 14px;
+    color: #595959;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+    outline: none;
+    color: #595959;
+}
+.m124 {
+    margin-left: 20px;
+}
+.active{
+    color: #ea413c;
+}
+.classify-sort {
+    height: 53px;
+    line-height: 53px;
+}
+.mb-1{
+    margin-bottom: -1px;
+}
+.m16 {
+    margin-left: 6px;
+}
+.classify-con {
+    display: inline-block;
+    width: 7px;
+    height: 11px;
+    position: relative;
+}
+.icon-sort{
+    display: inline-block;
+    width: 7px;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    /* background: url(../img/1.png)no-repeat -52px -30px; */
+}
+.icon-asc{
+    display: inline-block;
+    width: 7px;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    cursor: pointer;
+    /* background: url(../img/1.png)no-repeat -45px -30px; */
+}
+
+/* 5 */
+.banner7{
+    width: 100%;
+    background: #f5f5f5;
+
+}
+
+.banner7-c{
+    width: 1180px;
+    margin: 20px auto;
+    background: #ddd; 
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    border: 1px solid  red;
+    
+}
+
+.banner7-c1{
+width: 23%;
+height: 415px;
+/* border: 1px solid red; */
+background: white;
+margin-bottom: 10px;
+}
+
+.banner7-c1 img{
+    height:280px;
+    width: 100%;
+    margin-top: 10px;
+    /* border: 1px solid red;  */
+    float: left;
+   
+}
+.banner7-c1>:nth-child(2){
+    text-align: center;
+    font-size: 16px;
+}
+
+.banner7-c1>:nth-child(3){
+    color: #ccc;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.banner7-c1>:nth-child(4){
+    display: block;
+    color:red;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.banner7-p{
+    color: black;
+   
+}
+ .banner7-c1 p{
+    white-space :  nowrap;
+    clear: both;
+    overflow: hidden;
+} 
+.btn{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    margin: auto;
+    border-radius: 15px;
+    color: white;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+
+
+
+
+
+
+
+/* 6 */
+
+.nuv4{
+    height: 250px;
+    margin: 0 auto;
+    background: white;
+}
+.nuv4-k{
+    height: 260px;
+    width: 85px;
+    float: right;
+    border: 1px solid #d9d7d1;
+}
+.nuv4-k1{  
+    width: 70px;
+    margin: 0 auto;
+    border: 1px solid #d9d7d1;
+}
+.nuv4-k img{
+    display: block;
+    margin: 0 auto;
+}
+.nuv4-k2 img{
+    display: block;
+    margin-top: 20px;
+}
+.zt{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.nuv4-c{
+    height: 250px;
+    width: 1150px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.nuv4-c1{
+    height: 250px;
+    width: 580px;
+    float: left;
+  
+}
+
+.nuv4-p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.nuv4-c1 img{
+ display: block;
+ margin: 40px auto;
+ 
+}
+
+
+.nuv4-c2{
+    height: 250px;
+    width: 360px;
+    float: left;
+    /* border: 1px solid blue; */
+}
+
+.nuv4-s{
+    color:red
+}
+.nuv4-c2 img{
+    display: block;
+    margin: 30px auto;
+   }
+
+ .nuv4-c3{
+    float: left;
+    /* border: 1px solid blue; */
+}
+.nuv4-c3 img{
+    display: block;
+    margin: 20px auto;
+   }
+
+.nuv4-d{
+height: 2px;
+width: 190px;
+text-align: center;
+   }
+
+   .nuv4-p1{
+       font-size: 16px;
+       text-align: center;
+     
+   }
+   .nuv4-p2{
+    font-size: 18px;
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+
+.nuv4-p3{
+    font-size: 16px;
+    text-align: center;
+    color: #d9d7d1;
+    margin-top: 10px;
+}
+
+
+
+.xt{
+    width: 1180px;
+    margin: 0 auto;
+    border: 1px solid #f5f5f5;
+}
+
+  /* 最后 */
+  .footer{
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    /* border: 1px solid blue; */
+    /* border-top:2px solid #d9d7d1; */
+} 
+
+.footer-c{
+height:75px;
+width:1000px;
+/* border: 1px solid red; */
+margin: 0 auto;
+padding-top: 55px;
+}
+.footer-c span{
+   font-size: 16px;
+   margin-right: 20px;
+}
+
+.footer-p{
+    font-size: 16px;
+    margin-right: 20px;
+    margin-top: 15px;
+ 
+}
+
+/* main */
+.main-box{
+    width: 1180px;
+}

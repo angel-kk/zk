@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的购物车</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/shoppong-car.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div id="header">
+        <div class="head">
+            <div class="headMiddle">
+                <div class="headerLeft">
+                    <ul>
+                        <li><i class="iconfont icon-shouye"></i> <a href="javascript:;">搜狗首页</a></li>
+                        <li><a href="javascript:;">汪，欢迎来搜狗</a></li>
+                        <li><a href="javascript:;">请登录</a></li>
+                        <li><a href="javascript:;">免费注册</a></li>
+                    </ul>
+                </div>
+                <div class="headerRight">
+                    <ul>
+                        <li><a href="javascript:;">搜狗网首页</a></li>
+                        <li class="mytaobaof"><a href="javascript:;" class="mytaobaofa">我的搜狗</a>
+                            <div class="mytaobao">
+                                <ul>
+                                    <li><a href="javascript:;">已买到的宝贝</a></li>
+                                    <li><a href="javascript:;">已卖出的宝贝</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="mar18"><a href="javascript:;">购物车</a></li>
+                        <li><a href="javascript:;">收藏夹</a></li>
+                        <li><a href="javascript:;">手机版</a></li>
+                        <li><a href="javascript:;">搜狗网</a></li>
+                        <li><a href="javascript:;">商家支持</a></li>
+                        <li><a href="javascript:;">网站导航</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="headBottom">
+            <div class="navImg">
+                <a class="noborder" href="javascript:;"><img src="../images/sg.png" alt=""></a>
+            </div>
+            <div class="search">
+                <div class="searchTop">
+                    <p class="searchTopp1"></p> <input type="text">
+                    <p class="searchTopp2">
+                        <button>搜索</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="headBnavb">
+            <div class="headBnav">
+                <ul>
+                    <li>
+                        <a id="current" href="javaScript:;">
+                            全部商品 <span class="num"></span>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javaScript:;">
+                            降价商品
+                            <span class="num"></span>
+                        </a>
+
+                    </li>
+                    <li>
+                        <a href="javaScript:;">
+                            库存紧张
+                            <span class="num"></span>
+                        </a>
+
+                    </li>
+                </ul>
+                <!-- <p>已选商品（不含运费） <span>0.00</span>
+                <button>结算</button>
+            </p> -->
+            </div>
+        </div>
+    </div>
+    <!-- 购物车商品内容 -->
+    <div id="main">
+        <!-- <table class="contop">
+            <tr>
+                <td colspan="6">
+                    <div class="flex">
+                        <div class="w80">
+                            <input type="checkbox">全选
+                        </div>
+                        <div class="w251">商品信息</div>
+                        <div class="w165"></div>
+                        <div class="w129">单价</div>
+                        <div class="w120 mar">数量</div>
+                        <div class="w140">金额</div>
+                        <div class="w119">操作</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="content">
+          
+        </div>
+        <div class="w1190 jiesuan">
+            <div class="fl">
+                <div class="qx">
+                    <input type="checkbox">全选
+                </div>
+                <a href="javaScript:;">删除</a>
+                <a href="javaScript:;">移入收藏夹</a>
+                <a href="javaScript:;">分享</a>
+            </div>
+            <div class="fr">
+                <a href="javaScript:;">已选商品 <i>0</i> 件 </a>
+                <span>合计（不含运费）： <i class="yf">0.00</i> </span>
+                <button class="js">结算</button>
+            </div> -->
+        </div>
+        <!-- <div class="rm w1190">
+            <div class="rm-hd">
+                <ul>
+                    <li>
+                        <a href="javaScript:;">掌柜热卖</a>
+                    </li>
+                    <li id="none">
+                        <a href="javaScript:;">最近收藏的</a>
+                        <img id="img" src="../images/big.png" alt="">
+
+                    </li>
+                    <li><a href="javaScript:;">最近浏览过的</a></li>
+                    <li><a href="javaScript:;">猜你喜欢的</a></li>
+                </ul>
+            </div>
+            <div class="rm-bd">
+                <ul>
+                    <li>
+                        <img src="../images/p1.jpg" alt="">
+                        <div class="text">
+                            <h2>￥130</h2>
+                            <p><a href="javaScript:;">超定制伊利金典纯牛奶24盒整箱儿童学生高端营养早餐奶批发特价</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../images/p2.jpg" alt="">
+                        <div class="text">
+                            <h2>￥130</h2>
+                            <p><a href="javaScript:;">超定制伊利金典纯牛奶24盒整箱儿童学生高端营养早餐奶批发特价</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../images/p3.jpg" alt="">
+                        <div class="text">
+                            <h2>￥130</h2>
+                            <p><a href="javaScript:;">超定制伊利金典纯牛奶24盒整箱儿童学生高端营养早餐奶批发特价</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../images/p4.jpg" alt="">
+                        <div class="text">
+                            <h2>￥130</h2>
+                            <p><a href="javaScript:;">超定制伊利金典纯牛奶24盒整箱儿童学生高端营养早餐奶批发特价</a></p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="../images/p1.jpg" alt="">
+                        <div class="text">
+                            <h2>￥130</h2>
+                            <p><a href="javaScript:;">超定制伊利金典纯牛奶24盒整箱儿童学生高端营养早餐奶批发特价</a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="cle">
+                <ul>
+                    <li class="cur"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+ -->
+    </div>
+    <div class="footer w1190">
+        <div class="links">
+            <a href="javaScript:;">搜狗商城</a> <b>|</b>
+            <a href="javaScript:;">搜狗网</a> <b>|</b>
+            <a href="javaScript:;">哈哈</a> <b>|</b>
+            <a href="javaScript:;">聚划算</a> <b>|</b>
+            <a href="javaScript:;">全球速卖通</a> <b>|</b>
+            <a href="javaScript:;">阿里巴巴</a> <b>|</b>
+            <a href="javaScript:;">国际交易市场</a> <b>|</b>
+            <a href="javaScript:;">1688</a> <b>|</b>
+            <a href="javaScript:;">阿里妈妈</a> <b>|</b>
+            <a href="javaScript:;">飞猪</a> <b>|</b>
+            <a href="javaScript:;">淘小铺</a> <b>|</b>
+            <a href="javaScript:;">阿里云计算</a> <b>|</b>
+            <a href="javaScript:;">AliOS</a> <b>|</b>
+            <a href="javaScript:;">阿里通信</a> <b>|</b>
+            <a href="javaScript:;">一淘</a> <b>|</b>
+            <a href="javaScript:;">万网</a> <b>|</b>
+            <a href="javaScript:;">高德</a> <b>|</b>
+            <a href="javaScript:;">UC</a> <b>|</b>
+            <a href="javaScript:;">友盟</a> <b>|</b>
+            <a href="javaScript:;">阿里安全</a> <b>|</b>
+            <a href="javaScript:;">虾米</a> <b>|</b>
+            <a href="javaScript:;">大麦网</a> <b>|</b>
+            <a href="javaScript:;">钉钉</a> <b>|</b>
+            <a href="javaScript:;">支付宝</a> <b>|</b>
+            <a href="javaScript:;">优酷</a> <b>|</b>
+            <a href="javaScript:;">土豆</a> <b>|</b>
+            <a href="javaScript:;">阿里健康</a> <b>|</b>
+            <a href="javaScript:;">阿里影业</a> <b>|</b>
+            <a href="javaScript:;">阿里体育</a> <b>|</b>
+            <a href="javaScript:;">网商银行</a>
+        </div>
+
+        <div class="copyright">
+            <div class="row">
+                <a href="javaScript:;">关于淘宝</a>
+                <a href="javaScript:;">合作伙伴</a>
+                <a href="javaScript:;">营销中心</a>
+                <a href="javaScript:;">廉正举报</a>
+                <a href="javaScript:;">联系客服</a>
+                <a href="javaScript:;">开放平台</a>
+                <a href="javaScript:;">诚征英才</a>
+                <a href="javaScript:;">联系我们</a>
+                <a href="javaScript:;">网站地图</a>
+                <a href="javaScript:;">隐私权政策</a>
+                <a href="javaScript:;">法律声明</a>
+                <a href="javaScript:;">知识产权</a> <b>|</b> <i>© 2003-现在 Taobao.com 版权所有</i>
+            </div>
+            <div class="row">
+                <a href="javaScript:;">增值电信业务经营许可证：浙B2-20080224</a> <b>|</b>
+                <a href="javaScript:;">增值电信业务经营许可证（跨地区）： B2-20150210</a> <b>|</b>
+                <a href="javaScript:;">浙网文（2019）1033-086号</a> <b>|</b> <i>浙江省网络食品销售第三方平台提供者备案：浙网食A33010001</i>
+            </div>
+            <div class="row">
+                <i>互联网药品信息服务资格证书（浙）-经营性-2018-0010</i> <b>|</b>
+                <i>短消息类服务接入代码使用证书：号【2016】00154-A01</i> <b>|</b>
+                <i>信息网络传播视听许可证：1109364号</i>
+                <i>出版物网络交易平台服务经营备案号：新出发浙备字第002号</i>
+            </div>
+            <div class="row pnone">
+                <img src="../images/ga.png" alt="">
+                <a href="javaScript:;">浙公网安备 33010002000078号 </a> <b>|</b>
+                <a href="javaScript:;">浙B2-20080224-1</a> <b>|</b>
+                <i>广播电视节目制作经营许可证（浙）字第01012号</i> <b>|</b>
+                <i>市场名称登记证：工商网市字3301004120号</i> <b>|</b>
+                <i>医疗器械网络交易服务第三方平台备案：（浙）网械平台备字[2018]第00004号</i>
+            </div>
+        </div>
+    </div>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/shop.js"></script>
+</body>
+
+</html>

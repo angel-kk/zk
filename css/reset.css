@@ -1,0 +1,94 @@
+/* 去除页面缝隙 */
+html,
+body,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+table,
+form,
+select,
+textarea,
+img,
+input,
+button,
+tr,
+ul,
+li,
+ol,
+dl,
+dd,
+dt {
+    margin: 0;
+    padding: 0;
+}
+
+/* 去除列表样式 */
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+/* 去除超链接下划线 */
+a {
+    text-decoration: none;
+}
+
+/* 去除页面中所有加粗标签  更改为正常文字 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+b,
+strong {
+    font-weight: normal;
+}
+
+/* 倾斜文字变正常 */
+i,
+em,
+var {
+    font-style: normal;
+}
+
+/* 页面中所有文字12px */
+body {
+    font-size: 12px;
+}
+
+/* 页面所有图片 垂直对齐文字 */
+img {
+    vertical-align: middle;
+}
+
+/* 页面所有input 去除边框 去除聚焦线 */
+input,
+button {
+    border: 0;
+    outline: 0;
+}
+
+/* 需要去除边框的 添加class名字 */
+.noborder {
+    border: 0 !important;
+}
+
+
+
+/* 万能清浮动  谁高度塌陷了  就给谁添加一个class名字clear */
+.clear::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
